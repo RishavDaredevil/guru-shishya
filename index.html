@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru Shishya - Premier Coaching Institute</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="flex items-center space-x-2">
+                        <img src="image_7e8c91.jpg" alt="Guru Shishya Logo" class="h-10 w-10 rounded-full">
+                        <span class="text-2xl font-bold text-indigo-600">Guru Shishya</span>
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <nav class="flex items-center space-x-8">
+                        <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">About Us</a>
+                        <a href="#subjects" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Subjects</a>
+                        <a href="#courses" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Courses</a>
+                        <a href="#hours" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Hours</a>
+                        <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contact</a>
+                    </nav>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white">
+            <nav class="px-2 pt-2 pb-4 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-indigo-500">About Us</a>
+                <a href="#subjects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-indigo-500">Subjects</a>
+                <a href="#courses" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-indigo-500">Courses</a>
+                <a href="#hours" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-indigo-500">Hours</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-indigo-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <section id="home" class="relative bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                            Nurturing Young Minds for a <span class="text-indigo-600">Brighter Future</span>
+                        </h1>
+                        <p class="mt-6 text-lg text-gray-600 max-w-lg mx-auto md:mx-0">
+                            At Guru Shishya, we provide top-notch education with experienced teachers to guide students from classes 1 to 10 on their path to success.
+                        </p>
+                        <div class="mt-8">
+                            <a href="#contact" class="inline-block bg-indigo-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform duration-300 transform hover:scale-105">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="hidden md:block">
+                        <img src="image_7e7d67.jpg" alt="Guru Shishya Coaching Center" class="rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 md:py-28">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">About Guru Shishya</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Your partners in building a strong academic foundation.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="image_1727196813351.png" alt="Our Faculty" class="rounded-xl shadow-lg">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Decades of Expertise</h3>
+                        <p class="text-gray-600 mb-4">
+                            Guru Shishya caters to students from classes 1 to 10. Our experienced teachers, each with over 25 years of expertise in their subjects, are here to provide top-notch education.
+                        </p>
+                        <p class="text-gray-600">
+                            We believe in flexible and personalized learning. Students have the option to opt for specific subjects based on their individual needs, ensuring they get the focused attention they deserve.
+                        </p>
+                        <div class="mt-6 flex space-x-4">
+                           <div class="flex items-center text-indigo-600">
+                               <i data-lucide="award" class="w-6 h-6 mr-2"></i>
+                               <span class="font-semibold">25+ Years Experience</span>
+                           </div>
+                            <div class="flex items-center text-indigo-600">
+                               <i data-lucide="users" class="w-6 h-6 mr-2"></i>
+                               <span class="font-semibold">Classes 1 to 10</span>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subjects Section -->
+        <section id="subjects" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Subjects We Master</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Comprehensive curriculum for CBSE & ICSE boards from classes 1 to 10.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Mathematics Card -->
+                    <div class="bg-gray-50 rounded-xl shadow-md p-8 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center">
+                                <i data-lucide="calculator" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold ml-4">Mathematics</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">We focus on building strong analytical skills, focusing on speed and accuracy to solve complex problems.</p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Arithmetic & Number Systems</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Algebra & Trigonometry</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Geometry & Mensuration</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Statistics & Probability</li>
+                        </ul>
+                    </div>
+                    <!-- Physics Card -->
+                    <div class="bg-gray-50 rounded-xl shadow-md p-8 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center">
+                                <i data-lucide="atom" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold ml-4">Physics</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">We teach the core concepts and applications of physics, using reference materials like HC Verma for problem-solving.</p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Motion, Force & Newton's Laws</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Work, Energy, Power & Gravitation</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Light, Sound & Electricity</li>
+                             <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Magnetic Effects of Current</li>
+                        </ul>
+                    </div>
+                    <!-- Chemistry Card -->
+                    <div class="bg-gray-50 rounded-xl shadow-md p-8 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                             <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center">
+                                <i data-lucide="flask-conical" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold ml-4">Chemistry</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">We make chemistry intuitive and easy to understand, moving beyond rote memorization to true comprehension.</p>
+                        <ul class="space-y-2 text-gray-600">
+                           <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Matter, Atoms & Molecules</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Chemical Reactions, Acids & Bases</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Metals, Non-metals & Carbon</li>
+                            <li class="flex items-center"><i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-2"></i>Periodic Classification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Computer Courses Section -->
+        <section id="courses" class="py-20 md:py-28 bg-gray-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Specialized Computer Courses</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Empowering students with in-demand computer and programming skills for the future.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Course Card -->
+                    <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
+                        <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center mb-4">
+                            <i data-lucide="code" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Web Frameworks</h3>
+                        <p class="text-gray-600">Master modern web development with frameworks like React, Next.js, and Svelte.</p>
+                    </div>
+                    <!-- Course Card -->
+                    <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
+                         <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center mb-4">
+                             <i data-lucide="coffee" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Core Programming</h3>
+                        <p class="text-gray-600">Learn fundamentals with industry-standard languages like Java, C, and Python.</p>
+                    </div>
+                     <!-- Course Card -->
+                     <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
+                        <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center mb-4">
+                           <i data-lucide="gamepad-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">MakeCode Arcade</h3>
+                        <p class="text-gray-600">Unleash creativity by building your own retro video games.</p>
+                    </div>
+                     <!-- Course Card -->
+                     <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
+                        <div class="bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center mb-4">
+                            <i data-lucide="monitor" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Computer Fundamentals</h3>
+                        <p class="text-gray-600">Get started with Windows, hardware basics, MS Office, and internet skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opening Hours Section -->
+        <section id="hours" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                 <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Timings</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">We are here to help you learn throughout the week.</p>
+                </div>
+                 <div class="max-w-2xl mx-auto bg-gray-50 rounded-xl shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-center mb-6 text-gray-800">Opening Hours</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Monday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Tuesday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Wednesday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Thursday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Friday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                             <li class="flex justify-between items-center border-b border-gray-200 pb-4">
+                                <span class="font-medium text-gray-700">Saturday</span>
+                                <span class="font-semibold text-indigo-600">10:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="flex justify-between items-center pt-4">
+                                <span class="font-medium text-gray-500">Sunday</span>
+                                <span class="font-semibold text-red-500">Closed</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-28 bg-gray-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Get in Touch</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Interested? Enroll your child now or reach out for more information.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold mb-6">Contact Details</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center">
+                                    <i data-lucide="phone" class="w-6 h-6"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="font-semibold">Phone Number</p>
+                                    <a href="tel:9830952307" class="text-gray-600 hover:text-indigo-600">98309 52307</a>
+                                </div>
+                            </div>
+                             <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-indigo-100 text-indigo-600 rounded-full h-12 w-12 flex items-center justify-center">
+                                   <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <p class="font-semibold">Business Location</p>
+                                    <p class="text-gray-600">2, Rameshwar Malia Lane, Howrah, West Bengal 711101</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                         <div class="rounded-xl shadow-lg overflow-hidden h-96 md:h-full">
+                           <iframe 
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3418255901373!2d88.3312218751016!3d22.56631897950004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279c15433e80d%3A0x868478d1235596c!2s2%2C%20Rameshwar%20Malia%20Ln%2C%20Tikiapara%2C%20Howrah%2C%20West%20Bengal%20711101!5e0!3m2!1sen!2sin!4v1700148908127!5m2!1sen!2sin" 
+                           width="100%" 
+                           height="100%" 
+                           style="border:0;" 
+                           allowfullscreen="" 
+                           loading="lazy" 
+                           referrerpolicy="no-referrer-when-downgrade">
+                           </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+            <p>&copy; 2024 Guru Shishya. All Rights Reserved.</p>
+            <p class="text-gray-400 text-sm mt-2">Designed with care to foster learning.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if(mobileMenu.classList.contains('hidden') === false) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
